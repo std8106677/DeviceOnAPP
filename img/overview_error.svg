@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.333 22.742">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fc616c;
+      }
+    </style>
+  </defs>
+  <path id="overview異常icon" class="cls-1" d="M1,24.742H27.333L14.167,2Zm14.363-3.591H12.97V18.757h2.394Zm0-4.788H12.97V11.576h2.394Z" transform="translate(-1 -2)"/>
+</svg>

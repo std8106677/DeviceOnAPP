@@ -1,0 +1,1134 @@
+.container {
+  font-family: "微軟正黑體", "Microsoft JhengHei", "Arial", "sans-serif";
+  font-size: 18px;
+}
+
+.container Button {
+  font-size: 18px;
+}
+
+/* Tabs */
+.ReactModalPortal {
+  font-size: 18px;
+}
+
+.ReactModalPortal {
+  font-family: "微軟正黑體", "Microsoft JhengHei", "Arial", "sans-serif";
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.LoginPage {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  /*background-image: url("../img/login_bg.jpg");*/
+}
+
+.LoginPageBG {
+  background-image: url("../img/loginBG.png");
+  background-size: 100% 100%;
+  position: absolute;
+  right: 550px;
+  height: 100vh;
+  width: 100%;
+}
+
+.LoginPageContent {
+  position: absolute;
+  right: 0px;
+  margin: 0 auto;
+  width: 550px;
+  height: 100%;
+  text-align: center;
+  font-size: 22px;
+  color: #43425D;
+  /*background-color: rgba(255,255,255,0.2);*/
+}
+
+.LogoImage {
+  margin: 7.4vh auto 30px auto;
+  width: 100px;
+  height: 104px;
+  background-image: url("../img/loginLogo.png");
+}
+
+.QRcodeArea{
+  margin-top: 140px
+}
+
+.QRcode{
+  margin: 20px auto;
+  width: 90px;
+  display:block;
+}
+
+.LoginPageInput {
+  width: 80%;
+  border: none;
+  font-size: 16px;
+}
+
+.LoginPageInputIcon {
+  width: 27px;
+  height: 27px;
+  float: left;
+}
+
+.LangSelector {
+  width: 80%;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  background-color: transparent !important;
+  border: none;
+  font-size: 16px;
+}
+
+.LangSelector option {
+  color: black;
+}
+
+.LoginPageSubmit {
+  /*margin-left: calc(50% - 150px);*/
+  width: 360px;
+  height: 40px;
+  background-color: #004EA2;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  margin-top: 6vh;
+}
+
+.LoginPageError {
+  width: 215px;
+  height: 3vh;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: red;
+  margin: 5px auto;
+}
+
+.MainPage {
+  min-width: 600px;
+  min-height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-color: white;
+  width: 100%;
+  -webkit-background-size: cover;
+  /* For WebKit*/
+  -moz-background-size: cover;
+  /* Mozilla*/
+  -o-background-size: cover;
+  /* Opera*/
+  background-size: 100% 100%;
+  /*display: flex;*/
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MainMenu {
+  list-style-type: none;
+  margin-top: 80px;
+  width: 250px;
+  /*background-color: rgba(9, 143, 184, 0.3);*/
+  background-image: url("../img/menu_bg.jpg");
+  height: calc(100% - 80px);
+  /* Full height */
+  position: fixed;
+  /* Make it stick, even on scroll */
+  overflow: auto;
+  /* Enable scrolling if the sidenav has too much content */
+  -webkit-background-size: cover;
+  /* For WebKit*/
+  -moz-background-size: cover;
+  /* Mozilla*/
+  -o-background-size: cover;
+  /* Opera*/
+}
+
+.MainMenu .Item a {
+  font-size: 20px;
+  display: block;
+  color: white;
+  padding: 15px 21px;
+  text-decoration: none;
+}
+
+.MainMenu .SelectedItem a {
+  font-size: 20px;
+  background-color: #0B7D9F;
+  color: white;
+  display: block;
+  padding: 15px 16px;
+  text-decoration: none;
+  border-left: 5px solid #F36F24;
+}
+
+/* Change the link color on hover */
+.MainMenu .Item a:hover {
+  background-color: #0B7D9F;
+  color: white;
+}
+
+.MainMenu img {
+  width: 60px;
+  height: 30px;
+  padding-right: 30px;
+}
+
+.BlockUI {
+  margin-left: 250px;
+  height: calc(100vh - 80px);
+}
+
+.BlockUI .Subpage {
+  margin-left: 0px;
+}
+
+.Subpage {
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  margin-left: 250px;
+  color: #43425D;
+}
+
+.HomePage {
+  background-image: url("../img/login_bg.jpg");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+.HomePageBtn {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.HomePageBtn span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #1E6485;
+  font-weight: bold;
+}
+
+.ReportSubpage {
+  background-color: white;
+  height: 800px;
+  margin-top: 30px;
+  padding: 0 3vh 0 3vh;
+  width: 100%;
+  align-self: center;
+}
+
+.CorrectSubpage {
+  background-color: white;
+  padding: 0 3vh 3vh 3vh;
+  width: 100%;
+  align-self: center;
+}
+
+.CorrectSubpage .react-file-reader {
+  display: inline-block;
+}
+
+.WhiteBGSubpage {
+  background-color: white;
+  height: calc(100% - 120px);
+  /*margin-top: 20px;*/
+  padding: 3vh;
+  width: 100%;
+  align-self: center;
+}
+
+.InputStyle {
+  min-height: 38px;
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.CorrectSubpageTable tr {
+  height: 60px;
+}
+
+.MainPageLogo {
+  list-style-type: none;
+  width: 250px;
+  height: 80px;
+  background-color: #0D8DB3;
+  position: fixed;
+  /* Make it stick, even on scroll */
+  overflow: auto;
+  /* Enable scrolling if the sidenav has too much content */
+}
+
+.MainPageLogo div {
+  background-image: url("../img/logo1.svg");
+  height: 41px;
+  width: 166px;
+  margin-top: 20px;
+  margin-left: 34px;
+  /*border: 1px solid black;*/
+}
+
+.BG {
+  background-image: url("../img/bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* height: 100vh; */
+  margin-top: 80px;
+  min-height: calc(100% - 80px);
+  /*margin-left: 250px;*/
+}
+
+.InfoGrid {
+  width: 100%;
+  border: 1px solid white;
+  display: inline-block;
+  background-color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.InfoList {
+  background-color: white;
+}
+
+.InfoList td {
+  font-size: 18px;
+  text-align: center;
+}
+
+.SelectInfo {
+  width: 102%;
+  margin: 30px -30px 20px -15px;
+  /* top right bottom left */
+}
+
+.SelectInfo tbody {
+  /*box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.2);*/
+  box-shadow: 0 0 8px 6px rgba(16, 186, 238, 0.6);
+  border: 2px solid #0b7d9f;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.AbnormalSubpage {
+  margin-left: 150px;
+  height: 100vh;
+  background-color: white;
+  -webkit-background-size: cover;
+  /* For WebKit*/
+  -moz-background-size: cover;
+  /* Mozilla*/
+  -o-background-size: cover;
+  /* Opera*/
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  padding-top: 10px;
+  display: inline-block;
+  background-image: url("../img/bg.svg");
+  background-size: cover;
+}
+
+.TopBar {
+  right: 0px;
+  left: 250px;
+  height: 80px;
+  top: 0;
+  width: calc(100% - 250px);
+  position: fixed;
+  /* Make it stick, even on scroll */
+  z-index: 1;
+  background-color: #0D8DB3;
+  /*background-image: url("../img/topbar_bg.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.TopBarSelect {
+  right: 0px;
+  left: 250px;
+  height: 80px;
+  top: 0;
+  width: calc(100% - 250px);
+  position: fixed;
+  /* Make it stick, even on scroll */
+  z-index: 1;
+  background-color: #26374C;
+  vertical-align: middle;
+}
+
+.TopSpan {
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 60px;
+  border: 0px solid white;
+  color: white;
+  background-color: #26374C;
+  padding: 9px;
+  cursor: default;
+}
+
+.TopButton {
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 30px;
+  border: 1px solid white;
+  color: white;
+  background-color: #26374C;
+  padding: 9px;
+  border-radius: 5px;
+  min-width: 110px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.TopButton:hover {
+  color: black;
+  background-color: white;
+}
+
+.SelectStore {
+  height: 36px;
+  margin-left: 10px;
+  border: 1px solid white;
+  padding: 6px 20px 6px 9px;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.SelectStore_ReportPage {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #CCC;
+  padding: 6px 20px 6px 9px;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.SelectStore_ReportPage:hover,
+.SelectStore:hover {
+  /*background-color: #eee;*/
+  cursor: pointer;
+}
+
+.SelectPos {
+  width: 300px;
+  margin-left: 20px;
+  display: inline-block;
+  /*height: 80px;*/
+  vertical-align: middle;
+  /*padding: 10px;*/
+}
+
+.SelectPos .dropdown-heading {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+}
+
+.SelectPos .dropdown-heading-value {
+  color: white !important;
+}
+
+.SelectPos .dropdown-heading-value span {
+  color: white !important;
+}
+
+.SelectPos .dropdown-heading-dropdown-arrow span {
+  border: solid white !important;
+  border-width: 0 3px 3px 0 !important;
+  padding: 3px !important;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  top: -2px !important;
+}
+
+.UserInfo {
+  position: absolute;
+  right: 50px;
+  margin-top: 20px;
+  color: white;
+}
+
+.UserInfo .Arrow {
+  border-width: 5px 5px 2.5px;
+  border-style: solid;
+  border-color: white transparent transparent;
+  position: absolute;
+  margin-top: 15px;
+}
+
+.InputFromTo .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #f0f8ff !important;
+  color: #4a90e2;
+}
+
+.InputFromTo .DayPicker-Day {
+  border-radius: 5px !important;
+}
+
+.InputFromTo .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.InputFromTo .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+
+.InputFromTo .DayPickerInput-Overlay {
+  width: 280%;
+}
+
+.InputFromTo-to .DayPickerInput-Overlay {
+  margin-left: -198px;
+}
+
+.compDateRange .DayPickerInput input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  /*190px*/
+  height: 36px;
+  border-radius: 1px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #FFF;
+  background-color: rgba(255, 255, 255, 1);
+  color: #454545 !important;
+  -webkit-appearance: none;
+  shadow: 0px 2px 3px;
+}
+
+.compDateRange .DayPickerInput input::placeholder {
+  color: #454545 !important;
+  font-weight: normal;
+}
+
+.dateFilter {
+  width: 96%;
+  height: 15%;
+}
+
+.btnDateSearch {
+  height: 36px;
+  width: 110px;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 34px;
+  font-size: 18px;
+  /*background-color: #FF8373;*/
+  background-image: linear-gradient(#F36F24, #F16656);
+  color: #FFF;
+  shadow: 0px 2px 3px;
+  border-radius: 1px;
+}
+
+.DropdownResult {
+  font-size: 18px;
+  width: 100% !important;
+  height: 36px !important;
+}
+
+.DropdownResult>.multi-select>div>div.dropdown-heading {
+  font-size: 18px;
+  width: 100% !important;
+  height: 36px !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  border: 1px solid #FFF !important;
+  color: #454545 !important;
+  border-radius: 1px !important;
+}
+
+.DropdownResult .dropdown-heading-value {
+  color: #454545 !important;
+  font-weight: normal;
+}
+
+.DropdownResult .dropdown-heading-value span {
+  color: black !important;
+}
+
+.DropdownResult .dropdown-heading-dropdown-arrow span {
+  border: solid #000 !important;
+  border-width: 0 2px 2px 0 !important;
+  padding: 3px !important;
+  transform: rotate(45deg);
+  -webkit-transform: totate(45deg);
+  top: -2px;
+}
+
+.abnormalList {
+  width: 98% !important;
+  margin: 1% 1% 2% 1%;
+}
+
+.tableList {
+  width: 98% !important;
+  margin: 2% 1% 2% 1%;
+}
+
+.tableHeader th {
+  background-color: #F5F6FA;
+  height: 50px;
+  font-size: 18px;
+  color: #0F0F0F;
+  border: none !important;
+  vertical-align: middle !important;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.tableList th,.rowDataHeader td{
+  font-size: 1vw;
+}
+.abnormalBody td,.rowDataContent td {
+  height: 50px;
+  border-top: none !important;
+  border-bottom: 1px solid #F1F1F3;
+
+  font-size: 1vw;
+  vertical-align: middle !important;
+  text-align: center;
+  color: #3D3D3B;
+}
+
+.abnormalBodyExpand {
+  display: none;
+  border: none;
+  box-shadow: 4px -2px 12px -1px rgba(0, 0, 0, 0.3);
+  height: 50px;
+  font-size: 18px;
+  vertical-align: middle !important;
+  text-align: center !important;
+  color: #3D3D3B;
+}
+
+.expanding-row {
+  border-bottom: 1px solid #F1F1F3;
+  /*box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.3);*/
+}
+
+.tabStyle>ul {
+  border-bottom: 2px solid #D9D9D9;
+}
+
+.tabStyle>ul>li {
+  padding-right: 10px;
+  margin-bottom: -2px;
+}
+
+.tabStyle>ul>li>a {
+  color: rgba(67, 66, 93);
+  min-width: 160px;
+  height: 45px;
+  text-align: center;
+  background-color: #F3F3F3;
+  border: 1px solid #D9D9D9;
+  border-bottom: 2px solid #D9D9D9;
+}
+
+.tabStyle>ul>li.active>a,
+.tabStyle>ul>li.active>a:focus {
+  background-color: white;
+  color: rgba(0, 92, 170);
+  border: 2px solid #D9D9D9;
+  border-bottom: 2px solid #FFF;
+}
+
+.ExportReport {
+  display: inline-block;
+  float: right;
+  margin-right: 20vh;
+  margin-top: -5px;
+}
+
+.ExportReport button {
+  background-image: linear-gradient(#F36F24, #F16656);
+  border: 0px;
+  color: white;
+  width: 131px;
+  height: 44px;
+  border-radius: 5px;
+}
+
+.ExportReportDayPicker .DayPickerInput input {
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  height: 38px;
+  width: 100%;
+  text-align: center;
+}
+
+.abnormalSingle {
+  margin: 0 0 1% !important;
+}
+
+.abnormalGrops {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  margin-bottom: 20px !important;
+  border-radius: :1px !important;
+}
+
+.abnormalGrops>.panel-heading {
+  background-color: #FFF !important;
+}
+
+.abnormalGrops>.panel-heading+.panel-collapse>.panel-body {
+  border-top: none !important;
+}
+
+.bkstatistc {
+  margin: 0 0 1% 0 !important;
+  width: 100%;
+  background-color: white;
+  min-height: 280px;
+  height: 20%;
+  border-radius: 1px;
+}
+
+.rowDataHeader,
+div.CompTable table>thead>tr {
+  background-color: #F5F6FA;
+  /*height: 50px;*/
+  border-bottom: 1px solid #F1F1F3;
+  border-top: 1px solid #F1F1F3;
+  font-weight: bold;
+}
+
+.sortTable span {
+  cursor: pointer;
+}
+
+.rowDataContent {
+  height: 50px;
+  border-top: 1px solid #F1F1F3;
+  border-bottom: 1px solid #F1F1F3;
+}
+
+.SettingTilte {
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+}
+
+.settingTable {
+  width: 100% !important;
+}
+
+.settingTable td {
+
+  height: 50px;
+  border: 1px solid #F1F1F3 !important;
+
+  font-size: 18px;
+  vertical-align: middle !important;
+  text-align: center;
+  color: #3D3D3B;
+}
+
+.tdDropdown div>.btn-default {
+  width: 92%;
+  text-align: left;
+  font-size: 18px;
+}
+
+.tdDropdown div>.dropdown-toggle {
+  width: 8%;
+}
+
+.tdDropdown div {
+  width: 100%;
+}
+
+.confirmBtn {
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+.confirmBtn Button:first-child {
+  width: 185px;
+  height: 50px;
+  margin-right: 10px;
+  color: #077598;
+  border-color: #077598;
+  background-color: white;
+  font-size: 18px;
+}
+
+.confirmBtn Button:nth-child(2) {
+  width: 185px;
+  height: 50px;
+  margin-left: 10px;
+  color: white;
+  border-color: white;
+  background-color: #077598;
+  font-size: 18px;
+}
+
+.alertBtn {
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+.alertBtn Button:first-child {
+  width: 185px;
+  height: 50px;
+  color: white;
+  border-color: white;
+  background-color: #077598;
+  font-size: 18px;
+}
+
+.BtnStyle {
+  width: 185px;
+  height: 50px;
+  margin-left: 10px;
+  color: white !important;
+  border-color: white !important;
+  background-color: #077598 !important;
+}
+
+.ReportSubpage .DayPickerInput {
+  width: 40%
+}
+
+.ReportSubpage .DayPickerInput input {
+  width: 100%
+}
+
+.moreButton {
+  width: 120px;
+  float: right;
+  margin: 0px 45% 10px 10px !important;
+  color: #0B7D9F !important;
+  cursor: pointer !important;
+  border-color: #0B7D9F !important;
+}
+
+/* define bootstrap 5 columns */
+.col-xs-1-2,
+.col-sm-1-3,
+.col-md-1-4,
+.col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* define bootstrap 5 columns */
+
+.btnChartDateChanged1 {
+  color: #A4AFB7 !important;
+  width: 35px;
+  height: 35px;
+  padding-top: 5px !important;
+  padding-left: 6px !important;
+}
+
+.btnChartDateChanged2 {
+  color: #A4AFB7 !important;
+  width: 35px;
+  height: 35px;
+  padding-top: 5px !important;
+  padding-left: 11px !important;
+}
+
+.compDateRange.edit .DayPickerInput input {
+  min-height: 38px;
+  border-color: hsl(0, 0%, 80%);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+
+}
+
+.error {
+  border-color: red;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+label.required {
+  color: red;
+}
+
+ul.pagination {
+  margin: 0px;
+  float: right;
+}
+
+div.CompTable table>thead>tr>th {
+  vertical-align: text-bottom;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+div.CompTable table>tbody>tr>td {
+  border-left-style: none;
+  border-right-style: none;
+  padding: 16px;
+}
+
+div.CompTable {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+div.CompTable table {
+  float: left;
+}
+
+div.CompTable table>thead>tr {
+  position: relative;
+}
+
+div.CompTable table>tbody {
+  display: block;
+  max-height: 470px;
+  overflow: auto;
+  width: 100%
+}
+
+div.CompTable table>thead {
+  display: table;
+  overflow: auto;
+  width: 100%
+}
+
+div.CompTable table>tbody>tr {
+  display: flex;
+}
+
+.tableBtnRow{
+  padding: 11px;
+}
+/* div.CompTable ::-webkit-scrollbar {
+  width: 10px;
+}
+div.CompTable ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+div.CompTable ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+} */
+.CorrectSubpageTable.ImportResult td,
+.CorrectSubpageTable.SetDataTable td {
+  padding: 0px 5px 0px 5px;
+  border: 1px solid #F1F1F3;
+  vertical-align: middle;
+  color: #3D3D3B;
+}
+
+.CompTable th.sortable span.order,
+.CompTable th.sortable span.react-bootstrap-table-sort-order {
+  position: fixed;
+}
+
+.react-bootstrap-table th.sortable {
+  white-space: nowrap;
+}
+
+.white-space-pre-wrap .react-bootstrap-table th.sortable {
+  white-space: pre-wrap;
+}
+
+.SettingTemplateDialogContent {
+  height: 80%;
+}
+
+
+
+.col-xs-1-1 {
+  width: 100%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-1-2 {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-1-3 {
+    width: 33%;
+    float: left;
+  }
+
+  div.CompTable table>tbody>tr>td {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .container Button {
+    font-size: 16px;
+  }
+
+}
+
+@media (min-width: 1280px) {
+
+  div.CompTable table>tbody>tr>td {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .container Button {
+    font-size: 18px;
+  }
+  .tableBtnRow{
+    padding:0.5% !important;
+  }
+
+}
+
+@media (min-width: 1366px) {
+  .tableBtnRow{
+    padding:1% !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1920px) {
+  .tableBtnRow{
+    padding:5px !important;
+  }
+}
+
+@media screen and (max-height: 768px) {
+
+  .LogoImage {
+    margin: 5.4vh auto 10px auto;
+  }
+  
+  .QRcodeArea{
+    margin-top: 20px
+  }
+  .QRcode{
+    margin: 5px auto
+  }
+  .container Button {
+    font-size: 14px;
+    padding: 3px 6px;
+  }
+
+  div.CompTable table>tbody {
+    display: block;
+    max-height: 205px;
+    overflow: auto;
+    width: 100%
+  }
+
+  .SettingTemplateDialogContent {
+    height: 75%;
+  }
+}
+
+@media screen and (min-width: 992px)and (max-width: 1199px) {
+  .tabStyle>ul>li>a {
+    min-width: 135px;
+  }
+
+}
+
+@media screen and (min-height: 901px) {
+  div.CompTable table>tbody {
+    display: block;
+    max-height: 495px;
+    overflow: auto;
+    width: 100%
+  }
+
+}
+
+@media screen and (min-height: 1025px) {
+  div.CompTable table>tbody {
+    display: block;
+    max-height: 520px;
+    overflow: auto;
+    width: 100%
+  }
+}
+
+@media screen and (min-height: 1201px) {
+  div.CompTable table>tbody {
+    display: block;
+    max-height: 700px;
+    overflow: auto;
+    width: 100%
+  }
+}

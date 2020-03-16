@@ -1,0 +1,15 @@
+/node_modules
+bundle.js
+npm-debug.log
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea
+*.zip
+/qa
+/dev
+/testqa
+/prod
+/test01
+/preview
