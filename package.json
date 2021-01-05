@@ -44,7 +44,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
     "@khanacademy/react-multi-select": "^0.3.2",
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "babel-preset-stage-1": "^6.1.18",
     "bootstrap": "^4.1.3",
     "chart.js": "^2.7.3",
